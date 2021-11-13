@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stephanies_Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <nav class="FlexNav">
+                    <ul class="navheadlines">
+                        <li class="inline-block-header-work">
+                            <a href="index.html">Work</a>
+                        </li>
+                        <li class="inline-block-header-about">
+                           <a href="About.html">About</a>
+                        </li>
+                        <li class="inline-block-header-resume">
+                            <a href="resources/Resume_StephanieShahbazi.pdf">Resume</a>
+                        </li>
+                    </ul>
+                    <div class="logo"> 
+                        <img src="images/PortfolioLogo_white_color S 1.png">                                
+                    </div>
+                    <div class="socialheader">
+                        <a href="https://www.linkedin.com/in/stephanieshahbazi/"><img src="images/LinkedIn_whitecircle.png" class="LinkedInwhite"></a>
+                        <a href="mailto:stephanie.shahbazi@gmail.com"><img src="images/envelope_whitecircle.png" class="envelopewhite"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Top menu on small screens -->
+        <header class="smallscreenheader">
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <div class="dropdown">
+                <div class="menu" onclick="myFunction()"><i class="fa fa-bars" style="color:white;"></i>
+                </div> 
+                <div class="dropdowncontent" id="myDropdown">
+                    <a href="index.html">Work</a>
+                    <a href="About.html">About</a>
+                    <a href="mailto:stephanie.shahbazi@gmail.com">Contact</a>
+                </div>
+            </div>
+         
+            <div class="logo"> 
+                <img src="images/PortfolioLogo_white_color S 1.png">                                
+            </div>
+
+            <div class="socialheader">
+                <a href="https://www.linkedin.com/in/stephanieshahbazi/"><img src="images/LinkedIn_whitecircle.png" class="LinkedInwhite"></a>
+                <a href="mailto:stephanie.shahbazi@gmail.com"><img src="images/envelope_whitecircle.png" class="envelopewhite"></a>
+            </div>
+        </header>
+
+        <!-- Main Hero section -->
+        <section class="heroSection">
+            <div class="heroFlexContainer">
+                <div class="heroImage">
+                    <img src="images/heroImage.png" alt="heroImage">
+                </div>
+                <div class="heroDescription">
+                    <h1>Hello! I'm Stephanie</h1>
+                    <p class="heroline">UX/UI Designer with a passion for creating compelling user experiences and functional designs</p>
+                </div> 
+            </div>
+        </section>
+
+        <!-- My Work Section -->
+        <section class="myWork">
+            <h3 class="Projects">Featured Projects</h3>
+            <div class="workGrid">
+                <div class="proj1"> 
+                    <img src="images/Placeholder Alt..png" class="Roam">
+                    <h4>Roam</h4>
+                    <p>Travel App UX Design</p>
+                    <button onclick="location.href='casestudy.html'" type="button" class="projectbutton">
+                        View Project
+                    </button>                
+                </div>
+                    
+                <div class="proj2"> 
+                    <img src="images/Placeholder Alt.2.png" class="FDA">
+                    <h4>U.S. Food & Drug Administration</h4>
+                    <p>Responsive UI Redesign</p>
+                    <button class="projectbutton">View Project</button>
+                </div>
+                    
+                <div class="proj3"> 
+                    <img src="images/Placeholder Alt.3.png" class="Unison">
+                    <h4>Unison</h4>
+                    <p>UX Design Mobile App</p>
+                    <button class="projectbutton">View Project</button>
+                </div>
+                    
+                <div class="proj4"> 
+                    <img src="images/Placeholder Alt.4.png" class="PADV">
+                    <h4>Partnership Against Domestic Violence</h4>
+                    <p>UI Website Redesign</p>
+                    <button class="projectbutton">View Project</button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="inline-block-footer">
+                <ul>
+                    <li class="inline-block-footer">Let's Connect </li>
+                    <a href="https://www.linkedin.com/in/stephanieshahbazi/"><img src="images/LinkedIn_colorcircle.png" class="socialfooter"></a>
+                    <a href="mailto:stephanie.shahbazi@gmail.com"><img src="images/envelope_colorcircle.png" class="socialfooter"></a>
+                    <li class="copyright">Copyright © 2021</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
