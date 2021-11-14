@@ -21,6 +21,36 @@
     font-size: 36px;
 }
 
+.overview {
+    font-weight: bolder;
+}
+
+.btn-group {
+    display:flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #198D9A;
+    border-color: #198D9A;
+    color: white;
+
+}
+
+.btn:hover {
+    background-color: #23B7C8;
+    border-color: #23B7C8;
+}
+
+.casestudynav {
+    padding: 35px;
+}
+
+.process {
+    text-align: center;
+    font-weight: bold;
+}
+
 .text {
     font-size: 10pt;
     font-style: normal;
@@ -153,8 +183,6 @@ a:hover {
 
 footer {
     background-color: #F2F2F2;
-    width: 98%;
-    padding:1%;
 }
 
 .inline-block-footer {
@@ -332,6 +360,12 @@ h1 {
          padding: 25px;
      }
 
+     .btn-group {
+         flex-wrap: wrap;
+         width: 100%;
+     }
+
+
      /*homwork19*/
      .smallscreenheader {
         display: flex;
@@ -341,7 +375,7 @@ h1 {
         padding:1%;
         background-color:#198D9A;
         color: white;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .dropdown .menu{
@@ -392,10 +426,6 @@ h1 {
     }
 
     .navheadlines {
-        display: none;
-    }
-
-    .socialheader {
         display: none;
     }
 
@@ -535,6 +565,8 @@ h1 {
     .navigation {
         display: none;
     }
+
+
 }
 
 
