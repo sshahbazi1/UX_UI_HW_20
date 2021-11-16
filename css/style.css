@@ -489,8 +489,7 @@ h1 {
         padding:1%;
         background-color:#198D9A;
         color: white;
-        justify-content: space-evenly;
-
+        justify-content: space-between;
     }
 
     .dropdown .menu{
